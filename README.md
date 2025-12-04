@@ -1,3 +1,3 @@
-# MODULE 5:
+# MODULE 6:
 
-This branch contains work for module 5 assignment
+This branch contains work for module 6 assignment
