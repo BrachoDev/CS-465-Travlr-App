@@ -54,6 +54,7 @@ export class TripData {
       password: passwd
     };
     return this.http.post<AuthResponse>(this.baseUrl + '/' + endpoint, formData);
+    
   }
   
 }

@@ -5,6 +5,7 @@ import { Trip } from '../models/trip';
 import { TripData } from '../services/trip-data';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
+import { Authentication } from '../services/authentication';
 
 @Component({
   selector: 'app-trip-listing',
@@ -17,7 +18,7 @@ export class TripListing implements OnInit {
   trips$: Observable<Trip[]>; // Use observable for reactive updates
   message: string = '';
 
-  constructor(private tripData: TripData, private router: Router) {
+  constructor(private tripData: TripData, private router: Router, private authenticationService: Authentication) {
     console.log('TripListing constructor');
     this.trips$ = this.tripData.getTrips();
   }
@@ -36,6 +37,10 @@ export class TripListing implements OnInit {
 
   public addTrip(): void {
     this.router.navigate(['add-trip']);
+  }
+
+  public isLoggedIn() {
+    return this.authenticationService.isLoggedIn();
   }
 }
 
