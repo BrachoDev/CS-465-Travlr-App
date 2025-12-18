@@ -1,3 +1,9 @@
-# CS-465
-This repository contains all my work for the class Full Stack Development 1 at SNHU
-NOTE: Each branch contains work for each module.
+# CS-465-Travlr-App
+
+**This repository contains all my work for the class Full Stack Development 1 at SNHU**
+
+`Note`: Each branch contains work for each module.
+
+This full stack project incorporated multiple frontend development approaches, including Express-rendered HTML, JavaScript, and an Angular single-page application (SPA). While Express and JavaScript (TypeScript) supported server-side routing and basic page delivery, the Angular SPA provided a more dynamic and responsive user experience through component-based design and client-side routing. The backend was built using Node.js and Express with a NoSQL MongoDB database, which was well suited for this application due to its flexible document-based structure and seamless integration with JavaScript and JSON. JSON served as the data exchange format that connected the frontend and backend, allowing Angular to communicate efficiently with the API through structured requests and responses.
+
+Throughout development, code was refactored to improve efficiency and maintainability, such as centralizing API calls into reusable Angular services and creating reusable UI components. These improvements reduced redundancy and simplified future updates. Testing was performed using tools like Postman to validate API endpoints and HTTP methods, including GET, POST, PUT, and DELETE operations. With the addition of secure admin authentication, testing also included validating protected routes and handling authorized versus unauthorized access. Overall, this course helped me understand full stack application architecture, security, and testing, while helping me develop practical skills in MongoDB, Express, Angular, and Node.js. These skills have increased my confidence as a software developer, problem solving and support my long-term professional goals in a technology-focused career.
