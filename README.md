@@ -2,7 +2,7 @@
 
 **This repository contains all my work for the class Full Stack Development 1 at SNHU**
 
-`Note`: Each branch contains work for each module.
+`Note`: Each branch contains work for each module. Also, The final version of this project in the last branch called `Module7`
 
 This full stack project incorporated multiple frontend development approaches, including Express-rendered HTML, JavaScript, and an Angular single-page application (SPA). While Express and JavaScript (TypeScript) supported server-side routing and basic page delivery, the Angular SPA provided a more dynamic and responsive user experience through component-based design and client-side routing. The backend was built using Node.js and Express with a NoSQL MongoDB database, which was well suited for this application due to its flexible document-based structure and seamless integration with JavaScript and JSON. JSON served as the data exchange format that connected the frontend and backend, allowing Angular to communicate efficiently with the API through structured requests and responses.
 
